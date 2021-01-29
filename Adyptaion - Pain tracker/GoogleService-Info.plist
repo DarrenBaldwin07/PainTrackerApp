@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>894765761987-967o5pqhninddpn1jqt2vif2taqifdcu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.894765761987-967o5pqhninddpn1jqt2vif2taqifdcu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCxftvG6MKxIb1Wnp9WD8DFjR7YKiZGCCs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>894765761987</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Darren-Baldwin.Adyptaion---Pain-tracker</string>
+	<key>PROJECT_ID</key>
+	<string>adyptationlogin</string>
+	<key>STORAGE_BUCKET</key>
+	<string>adyptationlogin.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:894765761987:ios:92a85f3e2434e6adc02976</string>
+	<key>DATABASE_URL</key>
+	<string>https://adyptationlogin.firebaseio.com</string>
+</dict>
+</plist>

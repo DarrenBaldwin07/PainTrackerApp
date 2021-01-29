@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5620245BD0BDF022CDE23775 /* Pods_Adyptaion___Pain_tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81754D1A3F9519407D6A255D /* Pods_Adyptaion___Pain_tracker.framework */; };
+		6400DCA124D1B1150078E6F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6400DCA024D1B1150078E6F5 /* LoginViewController.swift */; };
+		6400DCA824D1F1280078E6F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6400DCA724D1F1280078E6F5 /* GoogleService-Info.plist */; };
+		644D7E9424CB596200548CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D7E9324CB596200548CF8 /* AppDelegate.swift */; };
+		644D7E9624CB596200548CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D7E9524CB596200548CF8 /* SceneDelegate.swift */; };
+		644D7E9B24CB596200548CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644D7E9924CB596200548CF8 /* Main.storyboard */; };
+		644D7E9D24CB596A00548CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644D7E9C24CB596A00548CF8 /* Assets.xcassets */; };
+		644D7EA024CB596A00548CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644D7E9E24CB596A00548CF8 /* LaunchScreen.storyboard */; };
+		644D7EB924CF868200548CF8 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D7EB824CF868200548CF8 /* GetStartedViewController.swift */; };
+		644D7EBC24D0887A00548CF8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D7EBB24D0887A00548CF8 /* SignUpViewController.swift */; };
+		64F786B724D32A4000896A8C /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F786B624D32A4000896A8C /* PasswordChecker.swift */; };
+		64F786B924D46B5400896A8C /* InterfaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F786B824D46B5400896A8C /* InterfaceViewController.swift */; };
+		64F786BB24D46BB800896A8C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F786BA24D46BB800896A8C /* Constants.swift */; };
+		E307D8AE24F4236600416992 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E307D8AD24F4236600416992 /* TableViewCell.swift */; };
+		E3126D9E24F540ED00AE1B1E /* Constants2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3126D9D24F540ED00AE1B1E /* Constants2.swift */; };
+		E3709B4624F186C300490E75 /* PainHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3709B4524F186C300490E75 /* PainHistoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E318D2ED2537C2A8000659E0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28A1ED941BDB66930449EF4D /* Pods-Adyptaion - Pain tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyptaion - Pain tracker.debug.xcconfig"; path = "Target Support Files/Pods-Adyptaion - Pain tracker/Pods-Adyptaion - Pain tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		6400DCA024D1B1150078E6F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6400DCA724D1F1280078E6F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		644D7E9024CB596200548CF8 /* Pain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644D7E9324CB596200548CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644D7E9524CB596200548CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		644D7E9A24CB596200548CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		644D7E9C24CB596A00548CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644D7E9F24CB596A00548CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644D7EA124CB596A00548CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644D7EB824CF868200548CF8 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		644D7EBB24D0887A00548CF8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		64F786B624D32A4000896A8C /* PasswordChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChecker.swift; sourceTree = "<group>"; };
+		64F786B824D46B5400896A8C /* InterfaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceViewController.swift; sourceTree = "<group>"; };
+		64F786BA24D46BB800896A8C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		76CBCB81A0C0FA9A9CB7AA6B /* Pods-Adyptaion - Pain tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adyptaion - Pain tracker.release.xcconfig"; path = "Target Support Files/Pods-Adyptaion - Pain tracker/Pods-Adyptaion - Pain tracker.release.xcconfig"; sourceTree = "<group>"; };
+		81754D1A3F9519407D6A255D /* Pods_Adyptaion___Pain_tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Adyptaion___Pain_tracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E307D8AD24F4236600416992 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E30B94D8253F66F1003696F7 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		E3126D9D24F540ED00AE1B1E /* Constants2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants2.swift; sourceTree = "<group>"; };
+		E318D2DD2537C2A8000659E0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		E318D2DF2537C2A8000659E0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		E3709B4524F186C300490E75 /* PainHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PainHistoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644D7E8D24CB596200548CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5620245BD0BDF022CDE23775 /* Pods_Adyptaion___Pain_tracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		359520FB2A8A218F57B0B563 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28A1ED941BDB66930449EF4D /* Pods-Adyptaion - Pain tracker.debug.xcconfig */,
+				76CBCB81A0C0FA9A9CB7AA6B /* Pods-Adyptaion - Pain tracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		644D7E8724CB596200548CF8 = {
+			isa = PBXGroup;
+			children = (
+				E3B3A5A6254E00C5009A854D /* New Group */,
+				64F786B524D329AB00896A8C /* ExtraClasses */,
+				644D7E9224CB596200548CF8 /* Adyptaion - Pain tracker */,
+				644D7E9124CB596200548CF8 /* Products */,
+				359520FB2A8A218F57B0B563 /* Pods */,
+				A495D59EFAA19C8BFAD943DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		644D7E9124CB596200548CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644D7E9024CB596200548CF8 /* Pain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644D7E9224CB596200548CF8 /* Adyptaion - Pain tracker */ = {
+			isa = PBXGroup;
+			children = (
+				644D7EBA24D0884400548CF8 /* ViewControllers */,
+				644D7E9924CB596200548CF8 /* Main.storyboard */,
+				644D7E9C24CB596A00548CF8 /* Assets.xcassets */,
+				644D7E9E24CB596A00548CF8 /* LaunchScreen.storyboard */,
+				6400DCA724D1F1280078E6F5 /* GoogleService-Info.plist */,
+				644D7EA124CB596A00548CF8 /* Info.plist */,
+			);
+			path = "Adyptaion - Pain tracker";
+			sourceTree = "<group>";
+		};
+		644D7EBA24D0884400548CF8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				644D7E9524CB596200548CF8 /* SceneDelegate.swift */,
+				644D7EB824CF868200548CF8 /* GetStartedViewController.swift */,
+				644D7E9324CB596200548CF8 /* AppDelegate.swift */,
+				644D7EBB24D0887A00548CF8 /* SignUpViewController.swift */,
+				6400DCA024D1B1150078E6F5 /* LoginViewController.swift */,
+				64F786B824D46B5400896A8C /* InterfaceViewController.swift */,
+				E3709B4524F186C300490E75 /* PainHistoryViewController.swift */,
+				E307D8AD24F4236600416992 /* TableViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64F786B524D329AB00896A8C /* ExtraClasses */ = {
+			isa = PBXGroup;
+			children = (
+				64F786B624D32A4000896A8C /* PasswordChecker.swift */,
+				64F786BA24D46BB800896A8C /* Constants.swift */,
+				E3126D9D24F540ED00AE1B1E /* Constants2.swift */,
+			);
+			path = ExtraClasses;
+			sourceTree = "<group>";
+		};
+		A495D59EFAA19C8BFAD943DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81754D1A3F9519407D6A255D /* Pods_Adyptaion___Pain_tracker.framework */,
+				E318D2DD2537C2A8000659E0 /* WidgetKit.framework */,
+				E318D2DF2537C2A8000659E0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3B3A5A6254E00C5009A854D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				E30B94D8253F66F1003696F7 /* Icon-60@2x.png */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644D7E8F24CB596200548CF8 /* Adyptaion - Pain tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644D7EA424CB596A00548CF8 /* Build configuration list for PBXNativeTarget "Adyptaion - Pain tracker" */;
+			buildPhases = (
+				74A0E7CD4C9DC3CC12EC48A6 /* [CP] Check Pods Manifest.lock */,
+				644D7E8C24CB596200548CF8 /* Sources */,
+				644D7E8D24CB596200548CF8 /* Frameworks */,
+				644D7E8E24CB596200548CF8 /* Resources */,
+				10A6E14DF358BE80EA52AE26 /* [CP] Embed Pods Frameworks */,
+				E318D2ED2537C2A8000659E0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adyptaion - Pain tracker";
+			productName = "Adyptaion - Pain tracker";
+			productReference = 644D7E9024CB596200548CF8 /* Pain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644D7E8824CB596200548CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Darren Baldwin Jr";
+				TargetAttributes = {
+					644D7E8F24CB596200548CF8 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 644D7E8B24CB596200548CF8 /* Build configuration list for PBXProject "Adyptaion - Pain tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644D7E8724CB596200548CF8;
+			productRefGroup = 644D7E9124CB596200548CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644D7E8F24CB596200548CF8 /* Adyptaion - Pain tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644D7E8E24CB596200548CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644D7EA024CB596A00548CF8 /* LaunchScreen.storyboard in Resources */,
+				6400DCA824D1F1280078E6F5 /* GoogleService-Info.plist in Resources */,
+				644D7E9D24CB596A00548CF8 /* Assets.xcassets in Resources */,
+				644D7E9B24CB596200548CF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A6E14DF358BE80EA52AE26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adyptaion - Pain tracker/Pods-Adyptaion - Pain tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adyptaion - Pain tracker/Pods-Adyptaion - Pain tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adyptaion - Pain tracker/Pods-Adyptaion - Pain tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74A0E7CD4C9DC3CC12EC48A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adyptaion - Pain tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644D7E8C24CB596200548CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F786B724D32A4000896A8C /* PasswordChecker.swift in Sources */,
+				644D7E9424CB596200548CF8 /* AppDelegate.swift in Sources */,
+				E3709B4624F186C300490E75 /* PainHistoryViewController.swift in Sources */,
+				64F786B924D46B5400896A8C /* InterfaceViewController.swift in Sources */,
+				644D7E9624CB596200548CF8 /* SceneDelegate.swift in Sources */,
+				E307D8AE24F4236600416992 /* TableViewCell.swift in Sources */,
+				E3126D9E24F540ED00AE1B1E /* Constants2.swift in Sources */,
+				644D7EB924CF868200548CF8 /* GetStartedViewController.swift in Sources */,
+				6400DCA124D1B1150078E6F5 /* LoginViewController.swift in Sources */,
+				644D7EBC24D0887A00548CF8 /* SignUpViewController.swift in Sources */,
+				64F786BB24D46BB800896A8C /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		644D7E9924CB596200548CF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644D7E9A24CB596200548CF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		644D7E9E24CB596A00548CF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644D7E9F24CB596A00548CF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644D7EA224CB596A00548CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644D7EA324CB596A00548CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644D7EA524CB596A00548CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A1ED941BDB66930449EF4D /* Pods-Adyptaion - Pain tracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8BQV3T9K;
+				INFOPLIST_FILE = "Adyptaion - Pain tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PainTracker;
+				PRODUCT_NAME = Pain;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		644D7EA624CB596A00548CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CBCB81A0C0FA9A9CB7AA6B /* Pods-Adyptaion - Pain tracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U8BQV3T9K;
+				INFOPLIST_FILE = "Adyptaion - Pain tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = PainTracker;
+				PRODUCT_NAME = Pain;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644D7E8B24CB596200548CF8 /* Build configuration list for PBXProject "Adyptaion - Pain tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644D7EA224CB596A00548CF8 /* Debug */,
+				644D7EA324CB596A00548CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644D7EA424CB596A00548CF8 /* Build configuration list for PBXNativeTarget "Adyptaion - Pain tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644D7EA524CB596A00548CF8 /* Debug */,
+				644D7EA624CB596A00548CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644D7E8824CB596200548CF8 /* Project object */;
+}
