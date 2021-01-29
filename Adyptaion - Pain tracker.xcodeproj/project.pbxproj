@@ -88,7 +88,7 @@
 		644D7E8724CB596200548CF8 = {
 			isa = PBXGroup;
 			children = (
-				E3B3A5A6254E00C5009A854D /* New Group */,
+				E3B3A5A6254E00C5009A854D /* Icons */,
 				64F786B524D329AB00896A8C /* ExtraClasses */,
 				644D7E9224CB596200548CF8 /* Adyptaion - Pain tracker */,
 				644D7E9124CB596200548CF8 /* Products */,
@@ -153,12 +153,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E3B3A5A6254E00C5009A854D /* New Group */ = {
+		E3B3A5A6254E00C5009A854D /* Icons */ = {
 			isa = PBXGroup;
 			children = (
 				E30B94D8253F66F1003696F7 /* Icon-60@2x.png */,
 			);
-			path = "New Group";
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
