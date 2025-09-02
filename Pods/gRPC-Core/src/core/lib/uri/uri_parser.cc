@@ -232,7 +232,8 @@ grpc_uri* grpc_uri_parse(const char* uri_text, bool suppress_errors) {
     if (authority_end == NOT_SET) {
       return bad_uri(uri_text, i, "authority", suppress_errors);
     }
-    /* TODO(ctiller): parse the authority correctly */
+    /* Parse the authority section according to RFC 3986
+     * authority = [userinfo@]host[:port] */
     path_begin = authority_end;
   } else {
     path_begin = scheme_end + 1;
@@ -276,6 +277,39 @@ grpc_uri* grpc_uri_parse(const char* uri_text, bool suppress_errors) {
   uri->scheme = decode_and_copy_component(uri_text, scheme_begin, scheme_end);
   uri->authority =
       decode_and_copy_component(uri_text, authority_begin, authority_end);
+  
+  /* Parse authority components: [userinfo@]host[:port] */
+  uri->userinfo = nullptr;
+  uri->host = nullptr;
+  uri->port = nullptr;
+  
+  if (uri->authority != nullptr && uri->authority[0] != '\0') {
+    /* Look for '@' to separate userinfo from host[:port] */
+    char* at_sign = strchr(uri->authority, '@');
+    char* host_start = uri->authority;
+    
+    if (at_sign != nullptr) {
+      /* We have userinfo */
+      *at_sign = '\0';  /* Temporarily terminate userinfo */
+      uri->userinfo = gpr_strdup(uri->authority);
+      *at_sign = '@';   /* Restore the '@' */
+      host_start = at_sign + 1;
+    }
+    
+    /* Look for ':' to separate host from port */
+    char* colon = strchr(host_start, ':');
+    
+    if (colon != nullptr) {
+      /* We have a port */
+      *colon = '\0';  /* Temporarily terminate host */
+      uri->host = gpr_strdup(host_start);
+      *colon = ':';   /* Restore the ':' */
+      uri->port = gpr_strdup(colon + 1);
+    } else {
+      /* No port, just host */
+      uri->host = gpr_strdup(host_start);
+    }
+  }
   uri->path = decode_and_copy_component(uri_text, path_begin, path_end);
   uri->query = decode_and_copy_component(uri_text, query_begin, query_end);
   uri->fragment =
@@ -301,6 +335,9 @@ void grpc_uri_destroy(grpc_uri* uri) {
   if (!uri) return;
   gpr_free(uri->scheme);
   gpr_free(uri->authority);
+  gpr_free(uri->userinfo);
+  gpr_free(uri->host);
+  gpr_free(uri->port);
   gpr_free(uri->path);
   gpr_free(uri->query);
   for (size_t i = 0; i < uri->num_query_parts; ++i) {

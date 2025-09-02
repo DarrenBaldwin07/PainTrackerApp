@@ -26,6 +26,10 @@
 typedef struct {
   char* scheme;
   char* authority;
+  /* Authority components */
+  char* userinfo;
+  char* host;
+  char* port;
   char* path;
   char* query;
   /** Query substrings separated by '&' */
